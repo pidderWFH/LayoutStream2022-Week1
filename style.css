@@ -2,7 +2,9 @@ body{
     /* Android: Roboto, Ios: Helvetica Neue */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 24px;
-    line-height: 36px;
+    /* line-height: 36px; */
+    line-height: 1.5;
+    box-sizing: border-box;
 }
 .pb-1{
     padding-bottom: 8px;
@@ -63,12 +65,10 @@ body{
 }
 .title{
     font-size: 32px;
-    line-height: 48px;
     border-bottom: 1px solid #000000;
 }
 .title span{
     font-size: 24px;
-    line-height: 36px;
     color: #A00404;
     padding-left: 16px;
     padding-bottom: 14px;
@@ -100,11 +100,14 @@ body{
 }
 .works-list p{
     font-size: 20px;
-    line-height: 30px;
 }
 .contact-list{
     width: 1200px;
     margin: 0 auto;
     color: #FFFFFF;
     text-align: center;
+}
+.contact-list a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
