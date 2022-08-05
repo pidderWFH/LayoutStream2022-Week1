@@ -111,3 +111,6 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
+.contact-list a:hover{
+    font-size: 26px;
+}
